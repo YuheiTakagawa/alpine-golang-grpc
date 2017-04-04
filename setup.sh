@@ -2,7 +2,10 @@
 
 export protobuf_BUILD_TESTS=OFF
 apk add --no-cache libstdc++
-apk add --no-cache --update --virtual .build-dependencies git alpine-sdk autoconf automake libtool file openssl
+#apk add --no-cache --update --virtual .build-dependencies git alpine-sdk autoconf automake libtool file openssl
+
+apk add --no-cache --update --virtual .build-dependencies git make g++ unzip autoconf automake libtool file openssl curl
+
 
 # Download protobuf source
 cd /tmp && git clone https://github.com/google/protobuf
@@ -18,3 +21,5 @@ make install
 rm -rf /tmp/protobuf
 
 apk del --no-cache --purge .build-dependencies
+rm -rf /var/cache/apk/*
+rm /tmp/setup.sh
