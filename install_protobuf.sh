@@ -3,7 +3,7 @@
 export protobuf_BUILD_TESTS=OFF
 
 # Download protobuf source
-cd /tmp && git clone https://github.com/google/protobuf
+cd /tmp && git clone -b $PROTOBUF_VERSION https://github.com/google/protobuf
 
 # Compile/Install protobuf
 cd /tmp/protobuf
