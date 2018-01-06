@@ -6,5 +6,5 @@ ENV GRPC_VERSION=v1.4.x
 ```
 
 DockerHub
-[alpine-grpc-protobuf](https://hub.docker.com/r/mizukisonoko/alpine-grpc-protobuf/)
+[goriyak-golang](https://hub.docker.com/r/gericass/goriyak-golang/)
 
