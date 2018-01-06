@@ -1,4 +1,4 @@
-# alpine-grpc-protobuf
+# alpine-golang-grpc
 
 ```
 ENV PROTOBUF_VERSION=3.4.x
