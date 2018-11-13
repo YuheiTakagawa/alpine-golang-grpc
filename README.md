@@ -1,10 +1,7 @@
 # alpine-golang-grpc
 
-```
-ENV PROTOBUF_VERSION=3.4.x
-ENV GRPC_VERSION=v1.4.x
-```
+protobuf is latest for alpine
 
 DockerHub
-[goriyak-golang](https://hub.docker.com/r/gericass/goriyak-golang/)
+[roto(YuheiTakagawa)](https://hub.docker.com/r/roto/utari/)
 
